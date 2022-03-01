@@ -1,13 +1,42 @@
 * {
-	display: flex-wrap;
+	position: relative;
 	margin: 0;
 	padding: 0;
 }
 
 .title-head {
-	font-size: x-large;
+	font-size: xxx-large;
 	font-weight: bold;
 	font-style: italic;
 	color: aquamarine;
-	f
+	background-color: black;
+	text-align: center;
+	width: 100%;
+	display: flex-wrap;
+}
+
+header {
+	position: relative;
+	border-bottom: 10px solid white;
+	background-color: aquamarine;
+	display: list-item;
+}
+
+header nav ul {
+	display: center;
+	-ms-text-justify: auto;
+	text-justify: auto;
+	color: black;
+	font-size: larger;
+}
+
+header nav ul li {
+	color: black;
+}
+
+.Intro {
+	text-align: center;
+	font: bold 1em/1.5em Verdana, Geneva, sans-serif;
+	display: fill;
+	width: auto;
 }
